@@ -11,6 +11,7 @@ void setup() {
 	Spark.function("digitalwrite", tinkerDigitalWrite);
 	Spark.function("analogread", tinkerAnalogRead);
 	Spark.function("analogwrite", tinkerAnalogWrite);
+	Spark.function("tempsense", tinkerTempSense);
 }
 
 void loop() {
